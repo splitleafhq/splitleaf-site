@@ -2,6 +2,7 @@
   "$schema": "./node_modules/oxlint/configuration_schema.json",
   "plugins": ["typescript", "unicorn", "oxc"],
   "categories": { "correctness": "error" },
+  "options": { "denyWarnings": true },
   "env": { "browser": true, "node": true },
   "ignorePatterns": ["dist", ".astro", "node_modules"]
 }
